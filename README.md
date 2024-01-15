@@ -23,8 +23,10 @@ In order to predict the creditworthiness of borrowers we are using a dataset of 
  
 The assumption is that data are represented here in consistent currency. The model is build using 77536 records in total with:<br>
   - 75036 healthy loans
-  - 2500 high-risk loans.<br>
-Having 75% of those data for training purposes (only 3.3% of them represent high-risk loans) and the rest for testing the output.<br>
+  - 2500 high-risk loans (3.3% out of total).<br>
+<img src="https://github.com/ValentynaK17/credit-risk-classification/blob/main/Credit_Risk/Output/Healthy%20VS%20High%20Risk.png" width="400"> <br>
+
+Having 75% of those data for training purposes and the rest for testing the output.<br>
 
 Before applying the machine learning we:<br>
  - investigate the data to be sure its clean, normalized and in the format acceptable by ML models (e.g. numerical values)
